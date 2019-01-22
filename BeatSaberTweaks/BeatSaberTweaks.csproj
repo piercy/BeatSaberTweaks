@@ -43,6 +43,9 @@
     <Reference Include="BeatSaberCustomUI">
       <HintPath>..\..\..\..\..\Program Files\Steam\steamapps\common\Beat Saber\Plugins\BeatSaberCustomUI.dll</HintPath>
     </Reference>
+    <Reference Include="BS_Utils">
+      <HintPath>..\..\..\SteamLibrary\steamapps\common\Beat Saber\Plugins\BS_Utils.dll</HintPath>
+    </Reference>
     <Reference Include="IllusionPlugin">
       <HintPath>..\..\..\SteamLibrary\steamapps\common\Beat Saber\Beat Saber_Data\Managed\IllusionPlugin.dll</HintPath>
       <Private>False</Private>
@@ -88,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HarmonyPatches\AudioPitchGainEffectStartEffect.cs" />
+    <Compile Include="HarmonyPatches\MainFlowCoordinatorHandleMainMenuViewControllerDidFinish.cs" />
     <Compile Include="HarmonyPatches\SongPreviewPlayerCrossfadeTo.cs" />
     <Compile Include="Tweaks\IngameTimeSpentClock.cs" />
     <Compile Include="Tweaks\MusicVolume.cs" />
