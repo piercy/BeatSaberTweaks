@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="HarmonyPatches\AudioPitchGainEffectStartEffect.cs" />
+    <Compile Include="HarmonyPatches\RenderingScaleSettingsControllerGetInitValues.cs" />
     <Compile Include="HarmonyPatches\SongPreviewPlayerCrossfadeTo.cs" />
     <Compile Include="Tweaks\MenuTweaks\FireworksTweaks.cs" />
     <Compile Include="Tweaks\IngameTimeSpentClock.cs" />
