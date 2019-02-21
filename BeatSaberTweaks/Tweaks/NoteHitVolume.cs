@@ -74,25 +74,22 @@ namespace BeatSaberTweaks
         private void incrementVolume_Click()
         {
             Settings.NoteHitVolume = Settings.NoteHitVolume + 0.1f;
-            Settings.NoteMissVolume = Settings.NoteHitVolume + 0.1f;
+            Settings.NoteMissVolume = Settings.NoteMissVolume + 0.1f;
 
             if (Settings.NoteHitVolume > 1f)
                 Settings.NoteHitVolume = 1f;
 
-            Settings.NoteMissVolume = Settings.NoteMissVolume + 0.1f;
             if (Settings.NoteMissVolume > 1f)
                 Settings.NoteMissVolume = 1f;
         }
         private void decrementVolume_Click()
         {
             Settings.NoteHitVolume = Settings.NoteHitVolume - 0.1f;
-            Settings.NoteMissVolume = Settings.NoteHitVolume - 0.1f;
+            Settings.NoteMissVolume = Settings.NoteMissVolume - 0.1f;
 
             if (Settings.NoteHitVolume < 0f)
                 Settings.NoteHitVolume = 0f;
-
-
-            Settings.NoteMissVolume = Settings.NoteMissVolume + 0.1f;
+       
             if (Settings.NoteMissVolume < 0f)
                 Settings.NoteMissVolume = 0f;
         }
